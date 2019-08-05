@@ -11,9 +11,9 @@ class FilmList extends Component {
     })
 
     return(
-      <>
+      <div className="full-list">
         { filmNodes }
-      </>
+      </div>
     )
   }
 

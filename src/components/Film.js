@@ -8,6 +8,8 @@ class Film extends Component {
       <>
       <li>
       <a href="{this.props.url}"> {this.props.name}</a>
+      <br></br>
+      <br></br>
       </li>
       </>
     )

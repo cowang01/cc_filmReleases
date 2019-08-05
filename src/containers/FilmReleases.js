@@ -38,11 +38,12 @@ class FilmReleases extends Component {
 render() {
 
   return(
-      <>
-      <h2>Upcoming Film Releases for UK</h2>
-      <FilmList data={this.state.data}/>
-      <FilmLink link={this.state.link}/>
-      </>
+      <div className="boxed">
+        <h3 id="top-title">Upcoming Film Releases for UK</h3>
+        <hr width= "90%"></hr>
+        <FilmList data={this.state.data}/>
+        <FilmLink link={this.state.link}/>
+      </div>
     )
   }
 }
