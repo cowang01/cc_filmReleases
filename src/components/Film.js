@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 
 
-class Films extends Component {
+class Film extends Component {
 
   render(){
     return(
       <>
-      <p>TestFilms</p>
+      <p>TestFilm</p>
       </>
     )
   }
 
 }
 
-export default Films;
+export default Film;
