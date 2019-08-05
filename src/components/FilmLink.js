@@ -5,7 +5,7 @@ class FilmLink extends Component {
 
   render(){
     return(
-      <p>TestFilmLink</p>
+      <a href="{this.props.links}">View more upcoming film releases > ></a>
     )
   }
 
